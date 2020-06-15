@@ -12,7 +12,7 @@ aiohttp = "^3.6.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.2"
-pytest-recording = "^0.7.0"
+pytest-recording = "^0.8.1"
 pytest-asyncio = "^0.12.0"
 vcrpy = "^4.0.2"
 docutils = "^0.16"
