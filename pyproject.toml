@@ -19,7 +19,7 @@ docutils = "^0.16"
 flake8 = "^3.8.2"
 readme-renderer = "^29.0"
 pygments = "^2.8.0"
-isort = "^5.7.0"
+isort = "^5.8.0"
 black = "^20.8b1"
 pytest-cov = "^2.11.1"
 
