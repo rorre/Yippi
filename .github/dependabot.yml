@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "22:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: pygments
+    versions:
+    - 2.7.4
+    - 2.8.0
+  - dependency-name: pytest-recording
+    versions:
+    - 0.11.0
+  - dependency-name: aiohttp
+    versions:
+    - 3.7.3
+  - dependency-name: readme-renderer
+    versions:
+    - "28.0"
+  - dependency-name: flake8
+    versions:
+    - 3.8.4
